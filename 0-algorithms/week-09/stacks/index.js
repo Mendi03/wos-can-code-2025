@@ -7,3 +7,5 @@ const myArrayStack = new ArrayStack();
 seed.forEach((num) => myArrayStack.push(num));
 
 myArrayStack.print();
+
+console.log(myArrayStack.isEmpty());
